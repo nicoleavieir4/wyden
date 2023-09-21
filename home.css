@@ -1,0 +1,92 @@
+/* Reset de estilos para zerar margens e paddings padrão do navegador */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para o corpo do blog */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Estilo para o cabeçalho do blog */
+header {
+    background-color: #4CAF50; /* Verde escuro */
+    color: #fff; /* Texto branco */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Estilo para o conteúdo principal */
+main {
+    margin: 20px;
+}
+
+article {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+article h2 {
+    color: #4CAF50; /* Verde escuro */
+    font-size: 24px;
+}
+
+article p {
+    font-size: 16px;
+}
+
+/* Estilo para a barra lateral */
+aside {
+    background-color: #4CAF50; /* Verde escuro */
+    color: #fff; /* Texto branco */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+aside h2 {
+    font-size: 20px;
+}
+
+/* Estilo para o rodapé */
+footer {
+    background-color: #333; /* Cinza escuro */
+    color: #fff; /* Texto branco */
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilização para links */
+a {
+    color: #4CAF50; /* Verde escuro */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
