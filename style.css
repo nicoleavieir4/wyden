@@ -146,6 +146,14 @@ main {
   flex-basis: 60%;
 }
 
+.sobre-sidebar {
+  background-color: #adeabb;
+  padding: 25px;
+  border-radius: 5px;
+  color: #013103; /* Verde escuro */
+  line-height: 1.5;
+}
+
 /* Estilo para o carrossel */
 
 .carrossel-container {
@@ -207,4 +215,9 @@ main {
 
 .next-button {
   right: 10px;
+}
+
+.social-icon {
+  background-color: #000000;
+  font-size: 25px;
 }
