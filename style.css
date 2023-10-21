@@ -253,7 +253,7 @@ main {
   margin: 0 auto;
   overflow: hidden;
   background-color: #cff2c1;
-  padding: 20px;
+  padding: 20px 20px 40px 20px;
   border-radius: 10px;
   /* Bordas mais arredondadas */
   text-align: center;
