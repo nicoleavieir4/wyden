@@ -15,8 +15,10 @@ body {
 
 /* Estilo para o cabeçalho do blog */
 header {
-  background-color: #4caf50; /* Verde escuro */
-  color: #fff; /* Texto branco */
+  background-color: #4caf50;
+  /* Verde escuro */
+  color: #fff;
+  /* Texto branco */
   padding: 20px;
   text-align: center;
 }
@@ -28,16 +30,30 @@ header h1 {
 .logo {
   max-width: 150px;
 }
-
+nav{
+  margin-top: 20px;
+}
 nav ul {
   list-style-type: none;
+  max-width: 360px;
+  margin: auto;
+  padding-left: 0px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
 }
 
 nav ul li {
   display: inline;
-  margin-right: 20px;
+  text-align: center;
+  width: 33.3333%;
 }
-
+nav ul li a{
+  width: 100%;
+}
 nav a {
   text-decoration: none;
   color: #fff;
@@ -47,7 +63,7 @@ nav a {
 
 /* Estilo para o conteúdo principal */
 main {
-  margin: 20px;
+  margin: 50px;
 }
 
 .artigo {
@@ -59,7 +75,8 @@ main {
 }
 
 .artigo h2 {
-  color: #4caf50; /* Verde escuro */
+  color: #4caf50;
+  /* Verde escuro */
   font-size: 24px;
 }
 
@@ -69,8 +86,10 @@ main {
 
 /* Estilo para a barra lateral */
 aside {
-  background-color: #4caf50; /* Verde escuro */
-  color: #fff; /* Texto branco */
+  background-color: #4caf50;
+  /* Verde escuro */
+  color: #fff;
+  /* Texto branco */
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
@@ -82,15 +101,18 @@ aside h2 {
 
 /* Estilo para o rodapé */
 footer {
-  background-color: #333; /* Cinza escuro */
-  color: #fff; /* Texto branco */
+  background-color: #333;
+  /* Cinza escuro */
+  color: #fff;
+  /* Texto branco */
   text-align: center;
   padding: 10px;
 }
 
 /* Estilização para botões */
 button {
-  background-color: #4caf50; /* Verde escuro */
+  background-color: #4caf50;
+  /* Verde escuro */
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -101,18 +123,21 @@ button {
 }
 
 button:hover {
-  background-color: #45a049; /* Verde mais claro */
+  background-color: #38833b;
+  /* Verde mais claro */
 }
 
 /* Estilização para links */
 a {
-  color: #4caf50; /* Verde escuro */
+  color: #4caf50;
+  /* Verde escuro */
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 a:hover {
-  color: #45a049; /* Verde mais claro */
+  color: #275b29;
+  /* Verde mais escuro (explicação: é link, geralmente fica mais escuro ou troca a cor) */
 }
 
 /* Estilização para o vídeo incorporado */
@@ -124,6 +149,69 @@ iframe {
 }
 
 /* Estilização para a seção de contato */
+.contato section{
+  margin-top: 55px;
+  margin-bottom: 100px;
+  background-color: #ffffff;
+  padding: 30px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contato form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  max-width: 700px;
+  margin: auto;
+}
+.contato form button{
+  margin-top: 30px;
+}
+.contato label {
+  margin-bottom: 10px;
+}
+
+.contato label span {
+  color: red;
+}
+
+.contato input,
+.contato textarea {
+  padding: 5px 7px;
+  box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+}
+.contato textarea{
+  min-height: 70px;
+}
+.contato input:focus-visible,
+.contato textarea:focus-visible {
+  outline: none;
+}
+
+.contato h2,
+.contato p {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.contato form div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.contato button {
+  width: 30%;
+  max-width: 170px;
+}
+
 .contato-sidebar {
   background-color: #f0f0f0;
   padding: 20px;
@@ -148,12 +236,15 @@ main {
 
 .sobre-sidebar {
   background-color: #adeabb;
-  padding: 25px;
+  padding: 10px 25px;
   border-radius: 5px;
-  color: #013103; /* Verde escuro */
+  color: #013103;
+  /* Verde escuro */
   line-height: 1.5;
 }
-
+.sobre-sidebar p{
+  margin-top: 10px;
+}
 /* Estilo para o carrossel */
 
 .carrossel-container {
@@ -163,8 +254,10 @@ main {
   overflow: hidden;
   background-color: #cff2c1;
   padding: 20px;
-  border-radius: 10px; /* Bordas mais arredondadas */
-  text-align: center; /* Centralizar o texto */
+  border-radius: 10px;
+  /* Bordas mais arredondadas */
+  text-align: center;
+  /* Centralizar o texto */
   max-width: 400px;
 }
 
@@ -176,11 +269,25 @@ main {
 .carrossel-item {
   flex: 0 0 100%;
   max-width: 100%;
-  padding: 20px;
+  padding: 20px 20px 10px 20px;
   box-sizing: border-box;
-  color: #4caf50; /* Verde escuro */
-  margin-bottom: 10px;
+  color: #4caf50;
+  /* Verde escuro */
   line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.carrossel-item h2 {
+  line-height: 32px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.carrossel-item a {
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .carrossel-item img {
@@ -190,6 +297,10 @@ main {
 }
 
 /* Estilo para os botões de navegação do carrossel */
+.buttons{
+  display: flex;
+  justify-content: space-around;
+}
 .carrossel-button {
   background-color: #4caf50;
   color: #fff;
@@ -198,26 +309,26 @@ main {
   font-size: 16px;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
-  position: absolute;
-  top: 90%;
-  transform: translateY(-90%);
-  z-index: 1;
+  transition: background-color 0.2s ease;
+  width: 30%;
 }
 
 .carrossel-button:hover {
-  background-color: #45a049;
+  background-color: #38833b;
 }
 
 .prev-button {
-  left: 10px;
+  left: 30px;
 }
 
 .next-button {
-  right: 10px;
+  right: 30px;
 }
-
+.redes-sociais{
+  margin-top: 10px;
+}
 .social-icon {
-  background-color: #000000;
-  font-size: 25px;
+  background-color: transparent;
+  font-size: 20px;
+  margin-right: 10px;
 }
