@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
+  
   // Seleciona os elementos do carrossel
   const carrossel = document.querySelector(".carrossel");
   const carrosselItems = document.querySelectorAll(".carrossel-item");
@@ -42,3 +43,4 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+
