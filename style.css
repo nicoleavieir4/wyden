@@ -380,3 +380,13 @@ main {
 .natureza img{
   width: 100%;
 }
+/* pagina natureza_2 */
+.title-natureza_2{
+  line-height: 52px;
+}
+.subtext{
+  margin-top: 20px !important;
+}
+#apoio{
+  border-bottom: none !important;
+}
