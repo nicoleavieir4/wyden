@@ -1,121 +1,118 @@
-    /* Reset de estilos para zerar margens e paddings padrão do navegador */
-    body,
-    h1,
-    h2,
-    p {
-        margin: 0;
-        padding: 0;
-    }
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
 
-    /* Estilo para o corpo do blog */
-    body {
-        font-family: Arial, sans-serif;
-        background-color: #f0f0f0;
-    }
+/* Estilo para o corpo do blog */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center; /* Centraliza todo o conteúdo */
+}
 
-    /* Estilo para o cabeçalho do blog */
-    header {
-        background-color: #4caf50;
-        /* Verde escuro */
-        color: #fff;
-        /* Texto branco */
-        padding: 20px;
-        text-align: center;
-    }
+/* Estilo para o cabeçalho do blog */
+header {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
 
-    h1 {
-        font-size: 36px;
-    }
+h1 {
+    font-size: 36px;
+}
 
-    header h1 {
-        font-size: 36px;
-    }
+/* Estilo para a logo no cabeçalho */
+.logo {
+    max-width: 150px;
+    display: block;
+    margin: 0 auto; /* Centraliza a logo horizontalmente */
+}
 
-    .logo {
-        max-width: 150px;
-    }
+nav {
+    margin-top: 20px;
+}
 
-    nav {
-        margin-top: 20px;
-    }
+/* Estilo para a barra de navegação */
+nav ul {
+    list-style-type: none;
+    max-width: 360px;
+    margin: 0 auto; /* Centraliza a lista horizontalmente */
+    padding-left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
-    nav ul {
-        list-style-type: none;
-        max-width: 360px;
-        margin: auto;
-        padding-left: 0px;
-        display: flex;
-        align-items: center;
-        flex-wrap: wrap;
-        flex-direction: row;
-        align-content: center;
-        justify-content: space-between;
-    }
+nav ul li {
+    text-align: center;
+    width: 25%; /* Alterado para 25% para melhor acomodar 4 itens */
+}
 
-    nav ul li {
-        display: inline;
-        text-align: center;
-        width: 33.3333%;
-    }
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
 
-    nav ul li a {
-        width: 100%;
-    }
+/* Estilo para o conteúdo principal */
+main {
+    margin: 50px auto; /* Centraliza o conteúdo principal horizontalmente */
+    max-width: 800px; /* Limita a largura máxima do conteúdo principal */
+}
 
-    nav a {
-        text-decoration: none;
-        color: #fff;
-        font-weight: bold;
-        font-size: 18px;
-    }
+/* Estilo para a barra lateral */
+aside {
+    text-align: center;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
 
-    /* Estilo para o conteúdo principal */
-    main {
-        margin: 50px;
-    }
+aside h2 {
+    font-size: 20px;
+}
 
-    /* Estilo para a barra lateral */
-    aside {
-        text-align: center;
-        background-color: #4caf50;
-        /* Verde escuro */
-        color: #fff;
-        /* Texto branco */
-        padding: 20px;
-        border-radius: 5px;
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    }
+/* Estilo para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
 
-    aside h2 {
-        font-size: 20px;
-    }
+/* Estilo para a container */
+.container {
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-    /* Estilo para o rodapé */
-    footer {
-        background-color: #333;
-        /* Cinza escuro */
-        color: #fff;
-        /* Texto branco */
-        text-align: center;
-        padding: 10px;
-    }
+/* Estilo para elementos com a classe 'style' */
+.style {
+    width: 60%;
+}
 
-    .container {
-        max-width: 800px;
-        padding: 20px;
-        text-align: center;
-    }
+/* Estilo para elementos com a classe 'divider' */
+.divider {
+    background-color: #e0ffe0;
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%;
+}
 
-    .divider {
-        background-color: #e0ffe0;
-        padding: 10px;
-        border-radius: 5px;
-        margin: 10px 0;
-    }
-
-    .green-box {
-        background-color: #b6ff99;
-        padding: 10px;
-        border-radius: 5px;
-        margin: 10px 0;
-    }
+/* Estilo para elementos com a classe 'green-box' */
+.green-box {
+    background-color: #b6ff99;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
